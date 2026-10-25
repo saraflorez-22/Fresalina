@@ -61,8 +61,15 @@ void Error_Handler(void);
 #define LED_GPIO_Port GPIOC
 #define LED2_Pin GPIO_PIN_6
 #define LED2_GPIO_Port GPIOA
+#define LED5_Pin GPIO_PIN_8
+#define LED5_GPIO_Port GPIOA
 #define LED3_Pin GPIO_PIN_9
 #define LED3_GPIO_Port GPIOA
+#define LED4_Pin GPIO_PIN_10
+#define LED4_GPIO_Port GPIOA
+#define BUTTON_Pin GPIO_PIN_6
+#define BUTTON_GPIO_Port GPIOB
+#define BUTTON_EXTI_IRQn EXTI9_5_IRQn
 
 /* USER CODE BEGIN Private defines */
 
